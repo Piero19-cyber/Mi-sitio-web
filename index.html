@@ -1,0 +1,212 @@
+<!DOCTYPE html>  
+<html lang="es">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovación Tecnológica</title>  
+    <style>
+        body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    text-align: center;  
+    background-color: #f9f9f9; /* Color de fondo claro */  
+}  
+
+header {  
+    background-color: #fff;  
+    color: black;  
+    padding: 20px;  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    border-bottom: 2px solid #fff;  
+}  
+
+.titulo {  
+    margin: 0;  
+    font-size: 1.8em;  
+}  
+
+nav ul {  
+    list-style-type: none;  
+    padding: 0;  
+    margin: 0;  
+}  
+
+nav ul li {  
+    display: inline;  
+    margin-right: 30px;  
+}  
+
+nav a {  
+    color: black;  
+    text-decoration: none;  
+    font-weight: bold;  
+}  
+
+nav a:hover {  
+    text-decoration: underline;  
+}  
+
+/* Estilo para la sección de bienvenida */  
+#bienvenida {  
+    background-color: #87CEEB; /* Celeste */  
+    padding: 40px; /* Aumentar el padding para más espaciado */  
+    color: #fff;  
+}  
+
+h2 {  
+    color:black;  
+    font-size: 2em;  
+    margin: 10px 0;  
+}  
+
+h2::after {  
+    content: "";  
+    display: block;  
+    width: 800px;  /* Longitud de la línea celeste incrementada */  
+    height: 3px;  
+    background-color: #87CEEB; /* Celeste */  
+    margin: 10px auto;  
+}  
+
+p {  
+    color:black ; /* Color negro para el texto de la sección de bienvenida */  
+    margin: 0 0 20px;  
+    font-size: 1.2em; /* Aumentado el tamaño del texto para mejorar la legibilidad */  
+}  
+
+/* Estilo específico para la imagen de bienvenida */  
+#bienvenida img {  
+    width: 30%; /* Ancho de la imagen de bienvenida al 30% */  
+    max-height: 60vh; /* Longitud máxima de la imagen al 60% de la altura de la ventana */  
+    height: auto;  
+    margin-top: 10px;  
+    border-radius: 8px;  
+}  
+
+/* Ajustes para las imágenes de otras secciones */  
+.container img {  
+    width: 80%; /* Imagen ocupa el 100% del contenedor */  
+    height: auto; /* Mantiene la relación de aspecto */  
+    border-radius: 8px; /* Bordes redondeados */  
+    margin-top: 10px; /* Margen superior */  
+}  
+
+/* Estilos para contenedores y texto */  
+.container {  
+    width: 90%;  
+    max-width: 800px;  
+    margin: 20px auto;  
+    padding: 20px;  
+    border: 1px solid #eaeaea;  
+    border-radius: 8px;  
+    box-shadow: white;  
+    background: #fff;  
+    text-align: left; /* Alinear texto a la izquierda */  
+    line-height: 1.6; /* Espaciado entre líneas */  
+}  
+label {  
+    display: block;  
+    margin: 10px 0 5px;  
+    color:black;  
+}  
+
+input, textarea {  
+    width: 100%;  
+    padding: 10px;  
+    margin-bottom: 10px;  
+    border: 1px solid #ccc;  
+    border-radius: 4px;  
+    font-size: 15px;  
+}  
+
+button {  
+    width: 100%;  
+    padding: 10px;  
+    background-color: #007BFF;  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    font-size: 16px;  
+}  
+    </style>
+   
+</head>  
+<body>  
+
+    <!-- Encabezado -->  
+    <header>  
+        <h1 class="titulo">Innovación Tecnológica</h1>  
+        <nav>  
+            <ul>  
+                <li><a href="#acerca">Acerca de</a></li>  
+                <li><a href="#ultimas-innovaciones">Últimas Innovaciones</a></li>  
+                <li><a href="#herramientas">Herramientas</a></li>  
+                <li><a href="#galeria">Galería</a></li>  
+                <li><a href="#contacto">Contacto</a></li>  
+            </ul>  
+        </nav>  
+    </header>  
+
+    <!-- Bienvenida -->  
+    <section id="bienvenida">  
+        <h2>Bienvenidos a Innovación Tecnológica</h2>  
+        <p>Tu fuente de información sobre las últimas innovaciones y tendencias.</p>  
+        <img src="1639596100121.jpeg" alt="Innovación Tecnológica">  
+    </section>  
+
+    <!-- Acerca de Nosotros -->  
+    <section id="acerca" class="container">  
+        <h2>Acerca de Nosotros</h2>  
+        <p>En Innovación Tecnológica, proporcionamos noticias, análisis y recursos sobre innovaciones disruptivas, inteligencia artificial y el futuro de la tecnología.</p>  
+        <img src="1579.jpg" alt="Acerca de Nosotros">  
+    </section>  
+
+    <!-- Últimas Innovaciones -->  
+    <section id="ultimas-innovaciones" class="container">  
+        <h2>Últimas Innovaciones</h2>  
+        <p> La IA está transformando industrias, desde la salud hasta la educación. Descubre cómo está cambiando el panorama.</p>  
+        <img src="ia-generativa-1.jpg" alt="Últimas Innovaciones">  
+    </section>  
+
+    <!-- Herramientas para Innovadores -->  
+    <section id="herramientas" class="container">  
+        <h2>Las Mejores Herramientas para Desarrolladores Innovadores</h2>  
+        <p>Explora las herramientas más utilizadas y efectivas para impulsar la innovación tecnológica este año.</p>  
+        <img src="Programa-para-programar-1.jpg" alt="Herramientas para Innovadores">  
+    </section>  
+
+    <!-- Galería de Medios -->  
+    <section id="galeria" class="container">  
+        <h2>Galería de Medios</h2>  
+        <p>Explora cómo la innovación tecnológica está transformando nuestra vida diaria y el futuro en este video.</p> 
+        <video class="video-galeria" src="Download.mp4" controls></video>    
+    </section>  
+
+    <!-- Sección de Contacto -->  
+    <div class="container">  
+        <h1>Contáctanos</h1>  
+        <p>Si tienes preguntas o comentarios, completa el siguiente formulario:</p>  
+        
+        <label for="nombre">Nombre:</label>  
+        <input type="text" id="nombre" placeholder="Tu nombre">  
+    
+        <label for="correo">Correo Electrónico:</label>  
+        <input type="email" id="correo" placeholder="Tu correo electrónico">  
+    
+        <label for="mensaje">Mensaje:</label>  
+        <textarea id="mensaje" placeholder="Escribe tu mensaje aquí..."></textarea>  
+    
+        <button type="submit">Enviar</button>  
+    </div>  
+
+    <!-- Pie de Página -->  
+    <footer>  
+        <p>x@nder_innovation_Todos los derechos reservados</p>  
+    </footer>  
+
+</body>  
+</html>
